@@ -8,10 +8,17 @@
   Link {
     text-decoration: none;
   }
+  body {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
   .wrapper {
     text-align: left;
     /* margin: 25px; */
-    margin:0;
+    margin: 5px;
     /* padding-left: 10px; */
     width: fit-content;
     height: fit-content;
